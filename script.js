@@ -715,7 +715,7 @@ function downloadPlanPDF() {
     
     // Configurar estilos para el título
     doc.setFont("helvetica", "bold");
-    doc.setFontSize(16); // Título más grande
+    doc.setFontSize(20); // Título más grande
     
     // Añadir título de la carrera
     const careerTitle = getCareerTitle(currentCareer);
@@ -724,7 +724,7 @@ function downloadPlanPDF() {
     // Subtítulo actualizado
     doc.setFont("helvetica", "normal");
     doc.setFontSize(11);
-    doc.text("Plan de estudios interactivo FCE", pageWidth / 2, 22, { align: 'center' });
+    doc.text("FRANJA MORADA ECONOMICAS - GESTIÓN 25/26", pageWidth / 2, 22, { align: 'center' });
     
     // Variables para control de posición
     let yPosition = 30;
